@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="Factory_Bank.Account" project="DesignPatterns" 
+    file="/DesignPatterns/src/Factory_Bank/Account.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="214" width="156" x="675" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="Factory_Bank.Bank" project="DesignPatterns" 
+    file="/DesignPatterns/src/Factory_Bank/Bank.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="220" x="41" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="Factory_Bank.Checking" project="DesignPatterns" 
+    file="/DesignPatterns/src/Factory_Bank/Checking.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="140" x="757" y="291"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="Factory_Bank.Customer" project="DesignPatterns" 
+    file="/DesignPatterns/src/Factory_Bank/Customer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="178" width="218" x="871" y="37"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="Factory_Bank.Loan" project="DesignPatterns" 
+    file="/DesignPatterns/src/Factory_Bank/Loan.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="160" width="164" x="471" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="Factory_Bank.Bank_Main" project="DesignPatterns" 
+    file="/DesignPatterns/src/Factory_Bank/Bank_Main.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="106" width="130" x="301" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="Factory_Bank.Saving" project="DesignPatterns" 
+    file="/DesignPatterns/src/Factory_Bank/Saving.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="124" x="593" y="291"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="Factory_Bank.Teller" project="DesignPatterns" 
+    file="/DesignPatterns/src/Factory_Bank/Teller.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="124" width="116" x="1129" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <generalization id="9">    
+    <end type="SOURCE" refId="7"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <generalization id="10">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="1"/>  
+  </generalization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
